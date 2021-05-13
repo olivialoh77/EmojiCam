@@ -6,10 +6,10 @@ Objective: Design a suite of camera-based gestures to input at least five emojis
 
 Functionalities:
 
-Full QWERTY Keyboard
-Emoji Type (using camera recognition to type fruit emojis)
-Dynamic Enlarging Keys
-Autocomplete
+- Full QWERTY Keyboard
+- Emoji Type (using camera recognition to type fruit emojis)
+- Dynamic Enlarging Keys
+- Autocomplete
 
 API's used: 
 Google's Teachable Machine 
