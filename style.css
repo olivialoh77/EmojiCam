@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #0a2258;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #addaec;
+    background-image: url("emojicamera.png");
+    background-repeat: repeat;
+}
+h1 {
+    text-align: center;
+}
+
+#container {
+    margin: 37px auto;
+    width: 256px;
+    height: 256px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#display {
+    margin: auto;
+    width: 250px;
+    height: 56px;
+    background: white;
+    border-radius: 5px;
+    padding: 1px;
+    font-size: 16px;
+}
+#auto {
+    alignment: left;
+    width: 245px;
+    height: 22px;
+    background: white;
+    border: solid 1px #0a2258;
+}
+#keyboard {
+    position: relative;
+    margin: auto;
+    padding: 3px;
+    list-style: none;
+}
+#keyboard li {
+    float: left;
+    margin: 0 2px 2px 0;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+
+#keyboard li:hover{
+    transform: scale(1.6);
+}
+#keyboard .delete {
+    width: 32px;
+}
+
+#keyboard .shift {
+    width: 40px;
+}
+
+#keyboard .space {
+    width: 135px;
+}
+
+#keyboard .space1 {
+    width: 12px;
+    background-color: #addaec;
+}
+
+#keyboard .emoji {
+    width: 60px;
+}
+
+#instr {
+    margin: 37px auto;
+    width: 350px;
+    padding: 40px;
+    background-color: #addaec;
+
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.ui-tooltip, .arrow:after {
+    background: white;
+    border: 2px solid #0a2258;
+}
+.ui-tooltip {
+    margin: auto;
+    padding: 8px;
+    border: 2px solid #0a2258;
+    width: 8px; height: 8px;
+    background-color:white;
+    transform: scale(2);
+}
+.arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+}
+.arrow.top {
+    top: -16px;
+    bottom: auto;
+}
+.arrow.left {
+    left: 20%;
+}
+.arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.arrow.top:after {
+    bottom: -20px;
+    top: auto;
+}
+
+#tbMain {
+    display: none;
+    margin: auto;
+}
+
+.button {
+    background-color: white; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4px;
+}
